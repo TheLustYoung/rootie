@@ -1,0 +1,6 @@
+Copyright (c) 2026 Afonin Web Studio (Afonin Vladislav Gennadievich). All rights reserved.
+
+This repository contains the proprietary design, code and texts of the Rootie online-store demo.
+No licence is granted: copying, modification, redistribution or use of any part without the written permission of Afonin Web Studio is prohibited.
+
+Third-party materials: product photos, names and the Rootie logo belong to their owners; the 3D sneaker model is "Air Jordan 13 Retro Court Purple Sneaker" by Switch 3D (Sketchfab), shown through the official embed.

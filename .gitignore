@@ -1,0 +1,7 @@
+# sources of the product photos and screenshots (large, not part of the site)
+_source/
+node_modules/
+img/proposal/
+*.log
+.DS_Store
+Thumbs.db

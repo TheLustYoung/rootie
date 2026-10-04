@@ -1,0 +1,687 @@
+{
+  "demo": false,
+  "currency": "AMD",
+  "contacts": {
+    "whatsapp": "37441773561",
+    "telegram": "rootieyerevan",
+    "instagram": "rootie.yerevan",
+    "phone": "+374 41 773561"
+  },
+  "categories": [
+    "Обувь",
+    "Одежда"
+  ],
+  "brands": [
+    "Chrome Hearts",
+    "Jordan",
+    "Kith",
+    "Moon Boot",
+    "New Balance",
+    "Nike",
+    "On",
+    "Palace",
+    "Salomon",
+    "adidas"
+  ],
+  "note": "Фото вырезаны из каталожных изображений публичного канала t.me/rrrutti1. Названия определены по фото ('check': true = подтвердить у магазина). Цен в канале нет.",
+  "products": [
+    {
+      "id": "jordan-1-low-travis-scott",
+      "name": "Air Jordan 1 Low x Travis Scott",
+      "brand": "Jordan",
+      "category": "Обувь",
+      "subtitle": "Коллаб · мужская и женская обувь",
+      "price": null,
+      "availability": "Предзаказ",
+      "new": true,
+      "tag": "Лимитированный выпуск",
+      "sizes": [
+        "35.5",
+        "36",
+        "36.5",
+        "37.5",
+        "38",
+        "38.5",
+        "39",
+        "40",
+        "40.5",
+        "41",
+        "42",
+        "42.5",
+        "43",
+        "44",
+        "44.5",
+        "45",
+        "45.5",
+        "46",
+        "47",
+        "47.5",
+        "48"
+      ],
+      "description": "Размеры 35.5–48 EU, также доступны детские. Pink доступен к заказу до официального релиза.",
+      "colors": [
+        {
+          "name": "Mocha",
+          "hex": "#4a3a31",
+          "image": "img/products/jordan-1-low-travis-scott-1.png"
+        },
+        {
+          "name": "Pink",
+          "hex": "#e9a3b8",
+          "image": "img/products/jordan-1-low-travis-scott-2.png"
+        }
+      ],
+      "check": true,
+      "images": [
+        "img/products/jordan-1-low-travis-scott-1.png",
+        "img/products/jordan-1-low-travis-scott-2.png"
+      ]
+    },
+    {
+      "id": "jordan-1-low",
+      "name": "Air Jordan 1 Low",
+      "brand": "Jordan",
+      "category": "Обувь",
+      "subtitle": "Мужская и женская обувь",
+      "price": null,
+      "availability": "Наличие уточняйте",
+      "new": true,
+      "tag": "",
+      "sizes": [],
+      "description": "Фото из каталога магазина. Цвет, размер, наличие и цену уточняйте у менеджера.",
+      "colors": [
+        {
+          "name": "Mocha / Black",
+          "hex": "#6b5646",
+          "image": "img/products/jordan-1-low-1.png"
+        },
+        {
+          "name": "Black Patent",
+          "hex": "#111111",
+          "image": "img/products/jordan-1-low-2.png"
+        },
+        {
+          "name": "Green Toe",
+          "hex": "#1c7a5a",
+          "image": "img/products/jordan-1-low-3.png"
+        },
+        {
+          "name": "Grey",
+          "hex": "#8d98ad",
+          "image": "img/products/jordan-1-low-4.png"
+        },
+        {
+          "name": "Ice Blue",
+          "hex": "#bcd6ee",
+          "image": "img/products/jordan-1-low-5.png"
+        }
+      ],
+      "check": true,
+      "images": [
+        "img/products/jordan-1-low-1.png",
+        "img/products/jordan-1-low-2.png",
+        "img/products/jordan-1-low-3.png",
+        "img/products/jordan-1-low-4.png",
+        "img/products/jordan-1-low-5.png"
+      ]
+    },
+    {
+      "id": "jordan-1-high",
+      "name": "Air Jordan 1 High",
+      "brand": "Jordan",
+      "category": "Обувь",
+      "subtitle": "Мужская и женская обувь",
+      "price": null,
+      "availability": "Наличие уточняйте",
+      "new": false,
+      "tag": "",
+      "sizes": [],
+      "description": "Фото из каталога магазина. Цвет, размер, наличие и цену уточняйте у менеджера.",
+      "colors": [
+        {
+          "name": "Grey / White",
+          "hex": "#b4b0ba",
+          "image": "img/products/jordan-1-high-1.png"
+        },
+        {
+          "name": "University Blue",
+          "hex": "#8fb1de",
+          "image": "img/products/jordan-1-high-2.png"
+        }
+      ],
+      "check": true,
+      "images": [
+        "img/products/jordan-1-high-1.png",
+        "img/products/jordan-1-high-2.png"
+      ]
+    },
+    {
+      "id": "jordan-4",
+      "name": "Air Jordan 4",
+      "brand": "Jordan",
+      "category": "Обувь",
+      "subtitle": "Мужская и женская обувь",
+      "price": null,
+      "availability": "Наличие уточняйте",
+      "new": false,
+      "tag": "",
+      "sizes": [],
+      "description": "Фото из каталога магазина. Цвет, размер, наличие и цену уточняйте у менеджера.",
+      "colors": [
+        {
+          "name": "Taupe",
+          "hex": "#7d6a5c",
+          "image": "img/products/jordan-4-1.png"
+        },
+        {
+          "name": "Denim",
+          "hex": "#9dbad6",
+          "image": "img/products/jordan-4-2.png"
+        }
+      ],
+      "check": true,
+      "images": [
+        "img/products/jordan-4-1.png",
+        "img/products/jordan-4-2.png"
+      ]
+    },
+    {
+      "id": "nike-dunk-low",
+      "name": "Nike Dunk Low",
+      "brand": "Nike",
+      "category": "Обувь",
+      "subtitle": "Мужская и женская обувь",
+      "price": null,
+      "availability": "Наличие уточняйте",
+      "new": true,
+      "tag": "",
+      "sizes": [],
+      "description": "Фото из каталога магазина. Цвет, размер, наличие и цену уточняйте у менеджера.",
+      "colors": [
+        {
+          "name": "Lemon",
+          "hex": "#e5dc86",
+          "image": "img/products/nike-dunk-low-1.png"
+        },
+        {
+          "name": "Rose / Red",
+          "hex": "#d99a90",
+          "image": "img/products/nike-dunk-low-2.png"
+        },
+        {
+          "name": "Mocha",
+          "hex": "#8a6a55",
+          "image": "img/products/nike-dunk-low-3.png"
+        },
+        {
+          "name": "Emerald",
+          "hex": "#1f9a72",
+          "image": "img/products/nike-dunk-low-4.png"
+        }
+      ],
+      "check": true,
+      "images": [
+        "img/products/nike-dunk-low-1.png",
+        "img/products/nike-dunk-low-2.png",
+        "img/products/nike-dunk-low-3.png",
+        "img/products/nike-dunk-low-4.png"
+      ]
+    },
+    {
+      "id": "nike-shox-r4",
+      "name": "Nike Shox R4",
+      "brand": "Nike",
+      "category": "Обувь",
+      "subtitle": "Мужская и женская обувь",
+      "price": null,
+      "availability": "Наличие уточняйте",
+      "new": false,
+      "tag": "",
+      "sizes": [],
+      "description": "Фото из каталога магазина. Цвет, размер, наличие и цену уточняйте у менеджера.",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#1b1b1b",
+          "image": "img/products/nike-shox-r4-1.png"
+        }
+      ],
+      "check": true,
+      "images": [
+        "img/products/nike-shox-r4-1.png"
+      ]
+    },
+    {
+      "id": "new-balance",
+      "name": "New Balance",
+      "brand": "New Balance",
+      "category": "Обувь",
+      "subtitle": "Мужская и женская обувь",
+      "price": null,
+      "availability": "Наличие уточняйте",
+      "new": false,
+      "tag": "",
+      "sizes": [],
+      "description": "Фото из каталога магазина. Цвет, размер, наличие и цену уточняйте у менеджера.",
+      "colors": [
+        {
+          "name": "Grey (2002R)",
+          "hex": "#8d8a85",
+          "image": "img/products/new-balance-1.png"
+        },
+        {
+          "name": "Taupe",
+          "hex": "#8a7a6e",
+          "image": "img/products/new-balance-2.png"
+        }
+      ],
+      "check": true,
+      "images": [
+        "img/products/new-balance-1.png",
+        "img/products/new-balance-2.png"
+      ]
+    },
+    {
+      "id": "on-cloudtilt",
+      "name": "On Cloudtilt",
+      "brand": "On",
+      "category": "Обувь",
+      "subtitle": "Беговые кроссовки",
+      "price": null,
+      "availability": "Наличие уточняйте",
+      "new": false,
+      "tag": "",
+      "sizes": [],
+      "description": "Фото из каталога магазина. Цвет, размер, наличие и цену уточняйте у менеджера.",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#efefef",
+          "image": "img/products/on-cloudtilt-1.png"
+        }
+      ],
+      "check": true,
+      "images": [
+        "img/products/on-cloudtilt-1.png"
+      ]
+    },
+    {
+      "id": "salomon-xt-6",
+      "name": "Salomon XT-6",
+      "brand": "Salomon",
+      "category": "Обувь",
+      "subtitle": "Мужская и женская обувь",
+      "price": null,
+      "availability": "Наличие уточняйте",
+      "new": false,
+      "tag": "",
+      "sizes": [],
+      "description": "Фото из каталога магазина. Цвет, размер, наличие и цену уточняйте у менеджера.",
+      "colors": [
+        {
+          "name": "Black / Silver",
+          "hex": "#222222",
+          "image": "img/products/salomon-xt-6-1.png"
+        }
+      ],
+      "check": true,
+      "images": [
+        "img/products/salomon-xt-6-1.png"
+      ]
+    },
+    {
+      "id": "adidas-samba",
+      "name": "adidas Samba OG",
+      "brand": "adidas",
+      "category": "Обувь",
+      "subtitle": "Мужская и женская обувь",
+      "price": null,
+      "availability": "Наличие уточняйте",
+      "new": false,
+      "tag": "",
+      "sizes": [],
+      "description": "Фото из каталога магазина. Цвет, размер, наличие и цену уточняйте у менеджера.",
+      "colors": [
+        {
+          "name": "White / Black",
+          "hex": "#f0f0f0",
+          "image": "img/products/adidas-samba-1.png"
+        }
+      ],
+      "check": true,
+      "images": [
+        "img/products/adidas-samba-1.png"
+      ]
+    },
+    {
+      "id": "adidas-gazelle",
+      "name": "adidas Gazelle Indoor",
+      "brand": "adidas",
+      "category": "Обувь",
+      "subtitle": "Мужская и женская обувь",
+      "price": null,
+      "availability": "Наличие уточняйте",
+      "new": false,
+      "tag": "",
+      "sizes": [],
+      "description": "Фото из каталога магазина. Цвет, размер, наличие и цену уточняйте у менеджера.",
+      "colors": [
+        {
+          "name": "Green",
+          "hex": "#1d6b52",
+          "image": "img/products/adidas-gazelle-1.png"
+        },
+        {
+          "name": "Pink",
+          "hex": "#eba08c",
+          "image": "img/products/adidas-gazelle-2.png"
+        }
+      ],
+      "check": true,
+      "images": [
+        "img/products/adidas-gazelle-1.png",
+        "img/products/adidas-gazelle-2.png"
+      ]
+    },
+    {
+      "id": "adidas-spezial",
+      "name": "adidas Handball Spezial",
+      "brand": "adidas",
+      "category": "Обувь",
+      "subtitle": "Мужская и женская обувь",
+      "price": null,
+      "availability": "Наличие уточняйте",
+      "new": false,
+      "tag": "",
+      "sizes": [],
+      "description": "Фото из каталога магазина. Цвет, размер, наличие и цену уточняйте у менеджера.",
+      "colors": [
+        {
+          "name": "Navy",
+          "hex": "#1f3b7a",
+          "image": "img/products/adidas-spezial-1.png"
+        },
+        {
+          "name": "Brown",
+          "hex": "#7d6a5a",
+          "image": "img/products/adidas-spezial-2.png"
+        }
+      ],
+      "check": true,
+      "images": [
+        "img/products/adidas-spezial-1.png",
+        "img/products/adidas-spezial-2.png"
+      ]
+    },
+    {
+      "id": "moon-boot-icon",
+      "name": "Moon Boot Icon",
+      "brand": "Moon Boot",
+      "category": "Обувь",
+      "subtitle": "Зимняя обувь · высокие",
+      "price": null,
+      "availability": "В наличии в Ереване",
+      "new": false,
+      "tag": "",
+      "sizes": [],
+      "description": "Самая удобная обувь на зиму и горнолыжный сезон. В наличии в магазине в Ереване. Цвет и размер уточняйте у менеджера.",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#111111",
+          "image": "img/products/moon-boot-icon-1.png"
+        },
+        {
+          "name": "White",
+          "hex": "#f2f2f2",
+          "image": "img/products/moon-boot-icon-2.png"
+        },
+        {
+          "name": "Navy",
+          "hex": "#1c2a5a",
+          "image": "img/products/moon-boot-icon-3.png"
+        },
+        {
+          "name": "Yellow",
+          "hex": "#f0c21a",
+          "image": "img/products/moon-boot-icon-4.png"
+        },
+        {
+          "name": "Brown",
+          "hex": "#6a3b22",
+          "image": "img/products/moon-boot-icon-5.png"
+        },
+        {
+          "name": "Blue",
+          "hex": "#1f4fd6",
+          "image": "img/products/moon-boot-icon-6.png"
+        }
+      ],
+      "check": true,
+      "images": [
+        "img/products/moon-boot-icon-1.png",
+        "img/products/moon-boot-icon-2.png",
+        "img/products/moon-boot-icon-3.png",
+        "img/products/moon-boot-icon-4.png",
+        "img/products/moon-boot-icon-5.png",
+        "img/products/moon-boot-icon-6.png"
+      ]
+    },
+    {
+      "id": "moon-boot-icon-low",
+      "name": "Moon Boot Icon Low",
+      "brand": "Moon Boot",
+      "category": "Обувь",
+      "subtitle": "Зимняя обувь · низкие",
+      "price": null,
+      "availability": "В наличии в Ереване",
+      "new": false,
+      "tag": "",
+      "sizes": [],
+      "description": "Самая удобная обувь на зиму и горнолыжный сезон. В наличии в магазине в Ереване. Цвет и размер уточняйте у менеджера.",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#111111",
+          "image": "img/products/moon-boot-icon-low-1.png"
+        },
+        {
+          "name": "White / Black",
+          "hex": "#e9e9e9",
+          "image": "img/products/moon-boot-icon-low-2.png"
+        },
+        {
+          "name": "Yellow",
+          "hex": "#f0b323",
+          "image": "img/products/moon-boot-icon-low-3.png"
+        },
+        {
+          "name": "White",
+          "hex": "#f4f4f4",
+          "image": "img/products/moon-boot-icon-low-4.png"
+        },
+        {
+          "name": "Khaki",
+          "hex": "#5f6a3a",
+          "image": "img/products/moon-boot-icon-low-5.png"
+        },
+        {
+          "name": "Lilac",
+          "hex": "#a9a4e8",
+          "image": "img/products/moon-boot-icon-low-6.png"
+        },
+        {
+          "name": "Sky Blue",
+          "hex": "#8fb0dd",
+          "image": "img/products/moon-boot-icon-low-7.png"
+        },
+        {
+          "name": "Pink",
+          "hex": "#f0a7cb",
+          "image": "img/products/moon-boot-icon-low-8.png"
+        },
+        {
+          "name": "Black Patent",
+          "hex": "#1a1a1a",
+          "image": "img/products/moon-boot-icon-low-9.png"
+        },
+        {
+          "name": "Navy",
+          "hex": "#1f2e6b",
+          "image": "img/products/moon-boot-icon-low-10.png"
+        },
+        {
+          "name": "Silver",
+          "hex": "#b5b7ba",
+          "image": "img/products/moon-boot-icon-low-11.png"
+        },
+        {
+          "name": "Camel",
+          "hex": "#c07a3a",
+          "image": "img/products/moon-boot-icon-low-12.png"
+        }
+      ],
+      "check": true,
+      "images": [
+        "img/products/moon-boot-icon-low-1.png",
+        "img/products/moon-boot-icon-low-2.png",
+        "img/products/moon-boot-icon-low-3.png",
+        "img/products/moon-boot-icon-low-4.png",
+        "img/products/moon-boot-icon-low-5.png",
+        "img/products/moon-boot-icon-low-6.png",
+        "img/products/moon-boot-icon-low-7.png",
+        "img/products/moon-boot-icon-low-8.png",
+        "img/products/moon-boot-icon-low-9.png",
+        "img/products/moon-boot-icon-low-10.png",
+        "img/products/moon-boot-icon-low-11.png",
+        "img/products/moon-boot-icon-low-12.png"
+      ]
+    },
+    {
+      "id": "moon-boot-low-plush",
+      "name": "Moon Boot Low · замша и мех",
+      "brand": "Moon Boot",
+      "category": "Обувь",
+      "subtitle": "Зимняя обувь · низкие",
+      "price": null,
+      "availability": "В наличии в Ереване",
+      "new": false,
+      "tag": "",
+      "sizes": [],
+      "description": "Фото из каталога магазина. Цвет, размер, наличие и цену уточняйте у менеджера.",
+      "colors": [
+        {
+          "name": "Mustard / Brown",
+          "hex": "#c99a2a",
+          "image": "img/products/moon-boot-low-plush-1.png"
+        },
+        {
+          "name": "Shearling",
+          "hex": "#b9722e",
+          "image": "img/products/moon-boot-low-plush-2.png"
+        },
+        {
+          "name": "Taupe Suede",
+          "hex": "#6e5c52",
+          "image": "img/products/moon-boot-low-plush-3.png"
+        },
+        {
+          "name": "Burgundy",
+          "hex": "#5b1f2c",
+          "image": "img/products/moon-boot-low-plush-4.png"
+        },
+        {
+          "name": "Grey Felt",
+          "hex": "#a5a8ad",
+          "image": "img/products/moon-boot-low-plush-5.png"
+        },
+        {
+          "name": "Teddy",
+          "hex": "#b98a56",
+          "image": "img/products/moon-boot-low-plush-6.png"
+        }
+      ],
+      "check": true,
+      "images": [
+        "img/products/moon-boot-low-plush-1.png",
+        "img/products/moon-boot-low-plush-2.png",
+        "img/products/moon-boot-low-plush-3.png",
+        "img/products/moon-boot-low-plush-4.png",
+        "img/products/moon-boot-low-plush-5.png",
+        "img/products/moon-boot-low-plush-6.png"
+      ]
+    },
+    {
+      "id": "kith-scarface-tee",
+      "name": "Kith x Scarface Tee",
+      "brand": "Kith",
+      "category": "Одежда",
+      "subtitle": "Футболка · коллаб",
+      "price": null,
+      "availability": "Наличие уточняйте",
+      "new": false,
+      "tag": "",
+      "sizes": [],
+      "description": "Фото из каталога магазина. Цвет, размер, наличие и цену уточняйте у менеджера.",
+      "colors": [
+        {
+          "name": "Washed Black",
+          "hex": "#3a3a3a",
+          "image": "img/products/kith-scarface-tee-1.png"
+        }
+      ],
+      "check": true,
+      "images": [
+        "img/products/kith-scarface-tee-1.png"
+      ]
+    },
+    {
+      "id": "palace-mcdonalds-tee",
+      "name": "Palace x McDonald's Tee",
+      "brand": "Palace",
+      "category": "Одежда",
+      "subtitle": "Футболка · коллаб",
+      "price": null,
+      "availability": "Наличие уточняйте",
+      "new": false,
+      "tag": "",
+      "sizes": [],
+      "description": "Фото из каталога магазина. Цвет, размер, наличие и цену уточняйте у менеджера.",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#e8e8ea",
+          "image": "img/products/palace-mcdonalds-tee-1.png"
+        }
+      ],
+      "check": true,
+      "images": [
+        "img/products/palace-mcdonalds-tee-1.png"
+      ]
+    },
+    {
+      "id": "chrome-hearts-tee",
+      "name": "Chrome Hearts Pocket Tee",
+      "brand": "Chrome Hearts",
+      "category": "Одежда",
+      "subtitle": "Футболка",
+      "price": null,
+      "availability": "Наличие уточняйте",
+      "new": false,
+      "tag": "",
+      "sizes": [],
+      "description": "Фото из каталога магазина. Цвет, размер, наличие и цену уточняйте у менеджера.",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#101010",
+          "image": "img/products/chrome-hearts-tee-1.png"
+        }
+      ],
+      "check": true,
+      "images": [
+        "img/products/chrome-hearts-tee-1.png"
+      ]
+    }
+  ]
+}

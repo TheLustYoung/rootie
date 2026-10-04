@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rootie — лимитированные кроссовки и одежда, Ереван</title>
+  <meta name="description" content="Rootie: оригинальные лимитированные кроссовки, одежда и сеты, чистка и реставрация обуви. Магазин в Ереване, Сарьяна 4.">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="preconnect" href="https://sketchfab.com" crossorigin>
+  <link rel="preconnect" href="https://static.sketchfab.com" crossorigin>
+  <link rel="dns-prefetch" href="https://media.sketchfab.com">
+  <link rel="stylesheet" href="css/style.css?v=11">
+  <link rel="stylesheet" href="css/nike.css?v=11">
+</head>
+<body class="loading">
+  <div class="splash" id="splash" aria-hidden="true"><img src="img/logo.svg" alt="" width="84" height="84"><img class="wordmark-splash" src="img/rootie-wordmark.svg" alt="" height="26"><i class="bar"><u></u></i></div>
+
+  <!-- utility bar (like nike.com: brand links left, service links right) -->
+  <div class="util">
+    <span class="util-l"><a href="#/store">Ереван, Сарьяна 4 · 11:00–22:00</a></span>
+    <span class="util-r"><a href="#/store">Магазин</a><i>|</i><a href="#/help">Помощь</a><i>|</i><a href="https://t.me/rrrutti1" target="_blank" rel="noopener">Канал новинок</a><i>|</i><a href="https://www.instagram.com/rootie.yerevan/" target="_blank" rel="noopener">Instagram</a></span>
+  </div>
+
+  <header class="top" id="top">
+    <a class="logo" href="#/" aria-label="Rootie"><img class="logo-mark" src="img/logo.svg" alt="" width="34" height="34"><img class="wordmark" src="img/rootie-wordmark.svg" alt="Rootie" height="20"></a>
+    <nav class="nav" id="nav" aria-label="Разделы">
+      <div class="nav-item" data-mega="new"><a href="#/shop/new">Новинки</a></div>
+      <div class="nav-item" data-mega="shoes"><a href="#/shop/Обувь">Обувь</a></div>
+      <div class="nav-item" data-mega="clothes"><a href="#/shop/Одежда">Одежда</a></div>
+      <div class="nav-item" data-mega="acc"><a href="#/shop/Аксессуары">Аксессуары</a></div>
+      <div class="nav-item" data-mega="watch"><a href="#/shop/Часы">Часы</a></div>
+      <div class="nav-item" data-mega="care"><a href="#/store">Чистка и реставрация</a></div>
+    </nav>
+    <div class="icons">
+      <button class="ico" id="searchBtn" aria-label="Поиск"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button>
+      <a class="ico" href="#/favorites" aria-label="Избранное"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg><b id="favCount" hidden>0</b></a>
+      <a class="ico" href="#/bag" aria-label="Корзина"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><b id="cartCount">0</b></a>
+      <button class="ico burger" id="burger" aria-label="Меню"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+    <div class="mega" id="mega" hidden></div>
+  </header>
+
+  <!-- promo bar (carousel of notices, like nike.com) -->
+  <div class="promo" id="promo"><button aria-label="Назад" data-p="-1">‹</button><a id="promoText" href="#/shop/new"></a><button aria-label="Вперёд" data-p="1">›</button></div>
+
+  <!-- the 3D hero (home page only; the model stays loaded while you browse) -->
+  <section class="hero" id="hero">
+    <div class="hero-word" aria-hidden="true">ROOTIE</div>
+    <canvas id="heroCanvas" aria-label="Вращающийся кроссовок" hidden></canvas>
+    <div class="hero-model" id="heroModel" hidden><div class="stage"><iframe id="heroFrame" title="Air Jordan 13 Retro Court Purple, 3D" allow="autoplay; fullscreen; xr-spatial-tracking" loading="eager"></iframe><div class="model-loader" id="modelLoader"><i class="bar"><u></u></i><span>Загружаем 3D</span></div></div></div>
+    <div class="hero-copy left"><p class="kicker">Ереван · лимитированные релизы · ★ 4,9 на Яндекс Картах</p><h1>Оригинальные<br>кроссовки</h1></div>
+    <div class="hero-copy right"><p>Лимитированные кроссовки, одежда и сеты. Заказ в WhatsApp или Telegram за пару минут.</p><a class="btn" href="#/shop">Смотреть каталог</a></div>
+    <div class="swatches" id="heroSwatches" hidden></div>
+  </section>
+
+  <main id="view" tabindex="-1"></main>
+
+  <footer class="footer">
+    <div class="foot-cols">
+      <div><h4>Каталог</h4><a href="#/shop/new">Новинки</a><a href="#/shop/Обувь">Обувь</a><a href="#/shop/Одежда">Одежда</a><a href="#/shop/Аксессуары">Аксессуары</a><a href="#/shop/Часы">Часы</a></div>
+      <div><h4>Услуги</h4><a href="#/store">Чистка и реставрация обуви</a><a href="#/help">Доставка и самовывоз</a><a href="#/help">Способы оплаты</a></div>
+      <div><h4>Магазин</h4><a href="#/store">Ереван, ул. Сарьяна, 4</a><a href="#/store">Ежедневно 11:00–22:00</a><a href="https://yandex.com/maps/org/rootie/60517769520/" target="_blank" rel="noopener">Маршрут на Яндекс Картах</a></div>
+      <div><h4>Связаться</h4><a href="https://wa.me/37441773561" target="_blank" rel="noopener">WhatsApp +374 41 773561</a><a href="https://t.me/rootieyerevan" target="_blank" rel="noopener">Telegram @rootieyerevan</a><a href="https://t.me/rrrutti1" target="_blank" rel="noopener">Канал @rrrutti1</a><a href="https://www.instagram.com/rootie.yerevan/" target="_blank" rel="noopener">Instagram @rootie.yerevan</a></div>
+    </div>
+    <div class="foot-bottom"><span>© Rootie · Ереван</span><span>Сайт: Afonin Web Studio</span><span id="credit" hidden>3D-модель: <a href="https://sketchfab.com/3d-models/air-jordan-13-retro-court-purple-sneaker-2be992830a78480bb1d0f25be2f45c1a" target="_blank" rel="noopener">Switch 3D · Sketchfab</a></span></div>
+  </footer>
+
+  <!-- search overlay -->
+  <div class="search" id="search" hidden>
+    <div class="search-bar"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="searchInput" placeholder="Поиск: Jordan, Nike, Moon Boot…" autocomplete="off"><button id="searchClose" aria-label="Закрыть">Отмена</button></div>
+    <div class="search-body"><div id="searchPop"></div><div class="search-res" id="searchRes"></div></div>
+  </div>
+
+  <!-- mobile menu -->
+  <aside class="mobile-menu" id="mobileMenu" hidden>
+    <button class="x" id="menuClose" aria-label="Закрыть">✕</button>
+    <a href="#/shop/new">Новинки</a><a href="#/shop/Обувь">Обувь</a><a href="#/shop/Одежда">Одежда</a><a href="#/shop/Аксессуары">Аксессуары</a><a href="#/shop/Часы">Часы</a>
+    <a href="#/store">Магазин и чистка</a><a href="#/favorites">Избранное</a><a href="#/help">Помощь</a>
+  </aside>
+
+  <div class="toast" id="toast" role="status" hidden></div>
+  <script type="module" src="js/app.js?v=11"></script>
+</body>
+</html>
